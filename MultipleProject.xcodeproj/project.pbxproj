@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		552C69F1270560A000305CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C69F0270560A000305CB9 /* AppDelegate.swift */; };
 		552C69F3270560A000305CB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C69F2270560A000305CB9 /* SceneDelegate.swift */; };
-		552C69F5270560A000305CB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C69F4270560A000305CB9 /* ViewController.swift */; };
 		552C69F8270560A000305CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552C69F6270560A000305CB9 /* Main.storyboard */; };
 		552C69FA270560A100305CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552C69F9270560A100305CB9 /* Assets.xcassets */; };
 		552C69FD270560A100305CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552C69FB270560A100305CB9 /* LaunchScreen.storyboard */; };
 		552C6A08270560A100305CB9 /* MultipleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C6A07270560A100305CB9 /* MultipleProjectTests.swift */; };
 		552C6A12270560A100305CB9 /* MultipleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C6A11270560A100305CB9 /* MultipleProjectUITests.swift */; };
 		552C6A14270560A100305CB9 /* MultipleProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C6A13270560A100305CB9 /* MultipleProjectUITestsLaunchTests.swift */; };
+		552C6A2127056D8000305CB9 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C6A2027056D8000305CB9 /* CalculatorViewController.swift */; };
+		552C6A2327056E0B00305CB9 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C6A2227056E0B00305CB9 /* CalculatorView.swift */; };
+		552C6A2727056F7C00305CB9 /* CalculatorViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C6A2627056F7C00305CB9 /* CalculatorViewControllerDelegate.swift */; };
+		552C6A29270572C100305CB9 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552C6A28270572C100305CB9 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,6 @@
 		552C69ED270560A000305CB9 /* MultipleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		552C69F0270560A000305CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		552C69F2270560A000305CB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		552C69F4270560A000305CB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		552C69F7270560A000305CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		552C69F9270560A100305CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		552C69FC270560A100305CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		552C6A0D270560A100305CB9 /* MultipleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		552C6A11270560A100305CB9 /* MultipleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleProjectUITests.swift; sourceTree = "<group>"; };
 		552C6A13270560A100305CB9 /* MultipleProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		552C6A2027056D8000305CB9 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		552C6A2227056E0B00305CB9 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		552C6A2627056F7C00305CB9 /* CalculatorViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewControllerDelegate.swift; sourceTree = "<group>"; };
+		552C6A28270572C100305CB9 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,10 @@
 			children = (
 				552C69F0270560A000305CB9 /* AppDelegate.swift */,
 				552C69F2270560A000305CB9 /* SceneDelegate.swift */,
-				552C69F4270560A000305CB9 /* ViewController.swift */,
-				552C69F6270560A000305CB9 /* Main.storyboard */,
 				552C69F9270560A100305CB9 /* Assets.xcassets */,
 				552C69FB270560A100305CB9 /* LaunchScreen.storyboard */,
 				552C69FE270560A100305CB9 /* Info.plist */,
+				552C6A2A2705732E00305CB9 /* Calculator */,
 			);
 			path = MultipleProject;
 			sourceTree = "<group>";
@@ -127,6 +132,42 @@
 			path = MultipleProjectUITests;
 			sourceTree = "<group>";
 		};
+		552C6A2A2705732E00305CB9 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				552C6A2B2705733500305CB9 /* Model */,
+				552C6A2C2705733F00305CB9 /* View */,
+				552C6A2D2705734500305CB9 /* Controller */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		552C6A2B2705733500305CB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				552C6A28270572C100305CB9 /* Calculator.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		552C6A2C2705733F00305CB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				552C6A2227056E0B00305CB9 /* CalculatorView.swift */,
+				552C69F6270560A000305CB9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		552C6A2D2705734500305CB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				552C6A2627056F7C00305CB9 /* CalculatorViewControllerDelegate.swift */,
+				552C6A2027056D8000305CB9 /* CalculatorViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +178,7 @@
 				552C69E9270560A000305CB9 /* Sources */,
 				552C69EA270560A000305CB9 /* Frameworks */,
 				552C69EB270560A000305CB9 /* Resources */,
+				552C6A2E27057D7D00305CB9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,13 +295,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		552C6A2E27057D7D00305CB9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		552C69E9270560A000305CB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552C69F5270560A000305CB9 /* ViewController.swift in Sources */,
+				552C6A2727056F7C00305CB9 /* CalculatorViewControllerDelegate.swift in Sources */,
+				552C6A2327056E0B00305CB9 /* CalculatorView.swift in Sources */,
 				552C69F1270560A000305CB9 /* AppDelegate.swift in Sources */,
+				552C6A29270572C100305CB9 /* Calculator.swift in Sources */,
+				552C6A2127056D8000305CB9 /* CalculatorViewController.swift in Sources */,
 				552C69F3270560A000305CB9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
